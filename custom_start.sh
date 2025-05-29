@@ -19,7 +19,6 @@ mkdir -p ./models/vae
 
 if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
   wget -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors \
-  
     https://civitai.com/api/download/models/1490781?type=Model&format=SafeTensor&size=pruned&fp=fp16
 fi
 
