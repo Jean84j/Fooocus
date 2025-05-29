@@ -31,7 +31,9 @@ mkdir -p ./models/vae
 pip install -q gdown
 
 if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
-  gdown --id 1V53zegdkUV5jt2KOYHw0nF3EK4aCW0_O -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors
+  # gdown --id 1V53zegdkUV5jt2KOYHw0nF3EK4aCW0_O -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors
+  gdown --id 10fbiZjvr0TeS4lRabUPHmNprfcqpK-Lj -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors
+
 fi
 
 
