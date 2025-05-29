@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# echo "==> [1/5] Копируем пресет по умолчанию..."
-# cp ./presets/pony_v6.json ./presets/default.json
+echo "==> [1/5] Копируем пресет по умолчанию..."
+cp ./presets/pony_v6.json ./presets/default.json
 
 echo "==> [2/5] Скачиваем модели (если ещё не скачаны)..."
 mkdir -p ./models/checkpoints
