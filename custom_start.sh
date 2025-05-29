@@ -17,15 +17,22 @@ mkdir -p ./models/vae
 #     https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL_vae.safetensors
 # fi
 
-if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
-  wget -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors \
-    # https://civitai.com/api/download/models/1490781?type=Model&format=SafeTensor&size=pruned&fp=fp16
-    https://drive.google.com/file/d/1V53zegdkUV5jt2KOYHw0nF3EK4aCW0_O/view?usp=drive_link
-fi
+# if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
+#   wget -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors \
+#     # https://civitai.com/api/download/models/1490781?type=Model&format=SafeTensor&size=pruned&fp=fp16
+#     https://drive.google.com/file/d/1V53zegdkUV5jt2KOYHw0nF3EK4aCW0_O/view?usp=drive_link
+# fi
 
   # https://civitai.com/api/download/models/799879?type=Model&format=SafeTensor&size=pruned&fp=bf16
 
   # https://civitai.com/api/download/models/1692717?type=Model&format=SafeTensor&size=pruned&fp=fp16
+
+
+pip install -q gdown
+
+if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
+  gdown --id 1V53zegdkUV5jt2KOYHw0nF3EK4aCW0_O -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors
+fi
 
 
 echo "==> [3/5] Запускаем Fooocus..."
