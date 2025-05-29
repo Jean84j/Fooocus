@@ -17,14 +17,9 @@ mkdir -p ./models/vae
 #     https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL_vae.safetensors
 # fi
 
-# if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
-#   wget -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors \
-#     https://civitai.com/api/download/models/1490781?type=Model&format=SafeTensor&size=pruned&fp=fp16
-# fi
-
-if [ ! -f "./models/checkpoints/Illustrious_v120.safetensors" ]; then
-  wget -O ./models/checkpoints/Illustrious_v120.safetensors \
-    https://civitai.com/api/download/models/746602?type=Model&format=SafeTensor
+if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
+  wget -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors \
+    https://civitai.com/api/download/models/1490781?type=Model&format=SafeTensor&size=pruned&fp=fp16
 fi
 
 
