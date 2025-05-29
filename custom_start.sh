@@ -21,11 +21,11 @@ if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
   wget -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors \
   
     https://civitai.com/api/download/models/1490781?type=Model&format=SafeTensor&size=pruned&fp=fp16
-
-    # https://civitai.com/api/download/models/799879?type=Model&format=SafeTensor&size=pruned&fp=bf16
-
-    # https://civitai.com/api/download/models/1692717?type=Model&format=SafeTensor&size=pruned&fp=fp16
 fi
+
+  # https://civitai.com/api/download/models/799879?type=Model&format=SafeTensor&size=pruned&fp=bf16
+
+  # https://civitai.com/api/download/models/1692717?type=Model&format=SafeTensor&size=pruned&fp=fp16
 
 
 echo "==> [3/5] Запускаем Fooocus..."
