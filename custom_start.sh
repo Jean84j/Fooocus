@@ -7,15 +7,22 @@ echo "==> [2/5] Скачиваем модели (если ещё не скача
 mkdir -p ./models/checkpoints
 mkdir -p ./models/vae
 
-if [ ! -f "./models/checkpoints/ponyDiffusionV6XL.safetensors" ]; then
-  wget -O ./models/checkpoints/ponyDiffusionV6XL.safetensors \
-    https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL.safetensors
+# if [ ! -f "./models/checkpoints/ponyDiffusionV6XL.safetensors" ]; then
+#   wget -O ./models/checkpoints/ponyDiffusionV6XL.safetensors \
+#     https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL.safetensors
+# fi
+
+# if [ ! -f "./models/vae/ponyDiffusionV6XL_vae.safetensors" ]; then
+#   wget -O ./models/vae/ponyDiffusionV6XL_vae.safetensors \
+#     https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL_vae.safetensors
+# fi
+
+if [ ! -f "./models/checkpoints/waiNSFWIllustrious_v120.safetensors" ]; then
+  wget -O ./models/checkpoints/waiNSFWIllustrious_v120.safetensors \
+    https://civitai.com/api/download/models/1490781?type=Model&format=SafeTensor&size=pruned&fp=fp16
 fi
 
-if [ ! -f "./models/vae/ponyDiffusionV6XL_vae.safetensors" ]; then
-  wget -O ./models/vae/ponyDiffusionV6XL_vae.safetensors \
-    https://huggingface.co/mashb1t/fav_models/resolve/main/fav/ponyDiffusionV6XL_vae.safetensors
-fi
+
 
 echo "==> [3/5] Запускаем Fooocus..."
 python entry_with_update.py --share --always-high-vram
