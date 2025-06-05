@@ -12,13 +12,13 @@ pip install -q gdown
 
  # gdown --id 11L0siJlm0FanLGymsXOgquGqr9xpiuJa -O ./models/checkpoints/nostraillustriousmix_mainMixVAELUNA.safetensors
 
- gdown --id 1KZAXe3CYsgNWjXT7BtRAsWI1KxCq7sWU -O ./models/checkpoints/nostrarealisticmix_v10SDXLVAE.safetensors
+ # gdown --id 1KZAXe3CYsgNWjXT7BtRAsWI1KxCq7sWU -O ./models/checkpoints/nostrarealisticmix_v10SDXLVAE.safetensors
 
  # gdown --id 1TXeQf0xvm_gTVjccgHoWWa3tCTlktiGl -O ./models/checkpoints/coolnameil_v4VAE.safetensors
 
  # gdown --id 1TTNDAgcbThkF78jQTx84q88l2hihSWbK -O ./models/checkpoints/cyberillustrious_v40.safetensors
 
-# gdown --id 1nYARuvk5QyzTJL98EuLkuNdqUpsPzMnM -O ./models/checkpoints/prefectiousXLNSFW_v10.safetensors
+gdown --id 1nYARuvk5QyzTJL98EuLkuNdqUpsPzMnM -O ./models/checkpoints/prefectiousXLNSFW_v10.safetensors
 
 
 echo "==> [3/5] Запускаем Fooocus..."
