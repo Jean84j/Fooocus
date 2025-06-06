@@ -149,4 +149,30 @@ config.default_base_model_name, config.checkpoint_downloads = download_models(
 config.update_files()
 init_cache(config.model_filenames, config.paths_checkpoints, config.lora_filenames, config.paths_loras)
 
+# ======= ДОПОЛНИТЕЛЬНАЯ ЗАГРУЗКА МОДЕЛЕЙ ЧЕРЕЗ GDOWN =======
+import subprocess
+
+# Устанавливаем gdown, если не установлен
+try:
+    import gdown
+except ImportError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "gdown"])
+
+# Загрузка кастомных моделей
+custom_models = [
+    # Lora
+    # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/MJ52.safetensors"),
+
+    # Model
+    ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/ilustmix_v6.safetensors")
+]
+
+for file_id, output_path in custom_models:
+    if not os.path.exists(output_path):
+        print(f"Загружаем {output_path} ...")
+        subprocess.run(["gdown", "--id", file_id, "-O", output_path])
+    else:
+        print(f"Файл уже существует: {output_path}")
+
+
 from webui import *
