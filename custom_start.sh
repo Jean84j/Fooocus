@@ -1,10 +1,12 @@
 #!/bin/bash
 echo "==> [2/5] Скачиваем модели (если ещё не скачаны)..."
 mkdir -p ./models/checkpoints
+mkdir -p ./models/loras
 mkdir -p ./models/vae
 
 pip install -q gdown
 
+ gdown --id 1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z -O ./models/loras/MJ52.safetensors
 
  gdown --id 1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D -O ./models/checkpoints/ilustmix_v6.safetensors
 
