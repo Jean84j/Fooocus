@@ -160,19 +160,19 @@ except ImportError:
 
 # Загрузка кастомных моделей
 custom_models = [
-    # Lora
+        # Lora
     # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/MJ52.safetensors"),
 
-    # Model
+        # Model
     # ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/ilustmix_v6.safetensors")
 
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/animergePonyXL_v60.safetensors"),
 
-     # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/ilustmix_v70Cinematic.safetensors"),
+    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/ilustmix_v70Cinematic.safetensors"),
 
-     ("11L0siJlm0FanLGymsXOgquGqr9xpiuJa", "./models/checkpoints/nostraillustriousmix_mainMixVAELUNA.safetensors"),
+    # ("11L0siJlm0FanLGymsXOgquGqr9xpiuJa", "./models/checkpoints/nostraillustriousmix_mainMixVAELUNA.safetensors"),
 
-
+    ("1rP8EYrPdxFhTKP7njcSb7-N-wu_SLihI", "./models/checkpoints/novaCartoonXL_v20.safetensors"),
 
 
  # gdown --id 1KZAXe3CYsgNWjXT7BtRAsWI1KxCq7sWU -O ./models/checkpoints/nostrarealisticmix_v10SDXLVAE.safetensors
