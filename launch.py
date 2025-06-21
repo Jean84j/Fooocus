@@ -170,10 +170,10 @@ custom_models = [
 
      # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/ilustmix_v70Cinematic.safetensors"),
 
-     ("1_HoBW4U4-Y9rDlp9dkEIEC2jhvI73V8a", "./models/checkpoints/waiNSFWIllustrious_v140.safetensors"),
+     ("11L0siJlm0FanLGymsXOgquGqr9xpiuJa", "./models/checkpoints/nostraillustriousmix_mainMixVAELUNA.safetensors"),
 
 
- # gdown --id 11L0siJlm0FanLGymsXOgquGqr9xpiuJa -O ./models/checkpoints/nostraillustriousmix_mainMixVAELUNA.safetensors
+
 
  # gdown --id 1KZAXe3CYsgNWjXT7BtRAsWI1KxCq7sWU -O ./models/checkpoints/nostrarealisticmix_v10SDXLVAE.safetensors
 
@@ -182,6 +182,9 @@ custom_models = [
  # gdown --id 1TTNDAgcbThkF78jQTx84q88l2hihSWbK -O ./models/checkpoints/cyberillustrious_v40.safetensors
 
  # gdown --id 1nYARuvk5QyzTJL98EuLkuNdqUpsPzMnM -O ./models/checkpoints/prefectiousXLNSFW_v10.safetensors
+
+
+      # ("1_HoBW4U4-Y9rDlp9dkEIEC2jhvI73V8a", "./models/checkpoints/waiNSFWIllustrious_v140.safetensors"),
 
 ]
 
