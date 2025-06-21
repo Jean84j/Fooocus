@@ -168,10 +168,10 @@ custom_models = [
 
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/animergePonyXL_v60.safetensors"),
 
-     ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/ilustmix_v70Cinematic.safetensors"),
+     # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/ilustmix_v70Cinematic.safetensors"),
 
-    
- # gdown --id 1_HoBW4U4-Y9rDlp9dkEIEC2jhvI73V8a -O ./models/checkpoints/waiNSFWIllustrious_v140.safetensors
+     ("1_HoBW4U4-Y9rDlp9dkEIEC2jhvI73V8a", "./models/checkpoints/waiNSFWIllustrious_v140.safetensors"),
+
 
  # gdown --id 11L0siJlm0FanLGymsXOgquGqr9xpiuJa -O ./models/checkpoints/nostraillustriousmix_mainMixVAELUNA.safetensors
 
