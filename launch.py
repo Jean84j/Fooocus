@@ -181,10 +181,7 @@ custom_models = [
 
  # gdown --id 1TTNDAgcbThkF78jQTx84q88l2hihSWbK -O ./models/checkpoints/cyberillustrious_v40.safetensors
 
- # gdown --id 1nYARuvk5QyzTJL98EuLkuNdqUpsPzMnM -O ./models/checkpoints/prefectiousXLNSFW_v10.safetensors
-
-
-      # ("1_HoBW4U4-Y9rDlp9dkEIEC2jhvI73V8a", "./models/checkpoints/waiNSFWIllustrious_v140.safetensors"),
+ # gdown --id 1nYARuvk5QyzTJL98EuLkuNdqUpsPzMnM -O ./models/checkpoints/prefectiousXLNSFW_v10.safetensors    
 
 ]
 
