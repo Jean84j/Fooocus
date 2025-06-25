@@ -179,7 +179,7 @@ custom_models = [
 
      # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
-     ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
+     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
 
  # gdown --id 1KZAXe3CYsgNWjXT7BtRAsWI1KxCq7sWU -O ./models/checkpoints/nostrarealisticmix_v10SDXLVAE.safetensors
