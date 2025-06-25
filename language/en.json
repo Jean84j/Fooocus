@@ -105,7 +105,7 @@
   "MRE Bad Dream": "MRE Плохой сон",
   "MRE Underground": "MRE Андеграунд",
   "MRE Surreal Painting": "MRE Сюрреализм",
-  "MRE Dynamic Illustration": "MRE Динамическая иллюстрация"
+  "MRE Dynamic Illustration": "MRE Динамическая иллюстрация",
   "MRE Undead Art": "MRE Искусство Нежити",
   "MRE Elemental Art": "MRE Стихийное Искусство",
   "MRE Space Art": "MRE Космическое Искусство",
@@ -204,7 +204,7 @@
   "Photo Glamour": "Фото: Гламур",
   "Photo Hdr": "Фото: HDR",
   "Photo Iphone Photographic": "Фото: Снято на iPhone",
-  "Photo Long Exposure": "Фото: Длинная выдержка"
+  "Photo Long Exposure": "Фото: Длинная выдержка",
   "Photo Neon Noir": "Фото: Неон-нуар",
   "Photo Silhouette": "Фото: Силуэт",
   "Photo Tilt Shift": "Фото: Тилт-шифт",
@@ -309,7 +309,7 @@
   "SDXL LoRA 4": "SDXL LoRA 4",
   "SDXL LoRA 5": "SDXL LoRA 5",
   "Refresh": "Обновить",
-  "🔄 Refresh All Files": "🔄 Обновить все файлы"
+  "🔄 Refresh All Files": "🔄 Обновить все файлы",
   "Sampling Sharpness": "Резкость сэмплирования",
   "Higher value means image and texture are sharper.": "Чем выше значение, тем резче изображение и текстуры.",
   "Guidance Scale": "Масштаб направляющей",
@@ -402,7 +402,7 @@
   "Type prompt here.": "Введите запрос здесь.",
   "Outpaint Expansion Direction:": "Направление расширения Outpaint:",
   "* Powered by Fooocus Inpaint Engine (beta)": "* Работает на движке Fooocus Inpaint (бета)",
-  "Fooocus Enhance": "Улучшение Fooocus"
+  "Fooocus Enhance": "Улучшение Fooocus",
   "Fooocus Cinematic": "Кинематографичный Fooocus",
   "Fooocus Sharp": "Резкий Fooocus",
   "For images created by Fooocus": "Для изображений, созданных с помощью Fooocus",
@@ -481,5 +481,5 @@
   "mouth": "рот",
   "hair": "волосы",
   "hand": "рука",
-  "body": "тело"
+  "body": "тело",
 }
