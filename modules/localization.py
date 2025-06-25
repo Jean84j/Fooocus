@@ -8,6 +8,7 @@ localization_root = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'la
 print(">>> Localization loaded:", current_translation.get("Enhance"))
 
 def localization_js(filename):
+    filename = 'en'
     global current_translation
 
     if isinstance(filename, str):
