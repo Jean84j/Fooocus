@@ -163,7 +163,7 @@ custom_models = [
         # Lora
     # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/SDXL_Midjourney_mimic.safetensors"),
 
-     ("1Xw6kbWhVuv878ysypc4DyWz7nMYfIw4J", "./models/loras/Gwen_Tennyson_(Ben10)_XL_IL_V1.0.safetensors"),
+     # ("1Xw6kbWhVuv878ysypc4DyWz7nMYfIw4J", "./models/loras/Gwen_Tennyson_(Ben10)_XL_IL_V1.0.safetensors"),
     
 
         # Model
