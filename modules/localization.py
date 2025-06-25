@@ -5,6 +5,7 @@ import os
 current_translation = {}
 localization_root = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'language')
 
+print(">>> Localization loaded:", current_translation.get("Enhance"))
 
 def localization_js(filename):
     global current_translation
@@ -23,7 +24,7 @@ def localization_js(filename):
                 print(str(e))
                 print(f'Failed to load localization file {full_name}')
 
-    current_translation = {k: 'XXX' for k in current_translation.keys()}  # use this to see if all texts are covered
+    # current_translation = {k: 'XXX' for k in current_translation.keys()}  # use this to see if all texts are covered
 
     return f"window.localization = {json.dumps(current_translation)}"
 
