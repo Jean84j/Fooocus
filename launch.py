@@ -171,7 +171,7 @@ custom_models = [
 
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
 
     # ("11L0siJlm0FanLGymsXOgquGqr9xpiuJa", "./models/checkpoints/IL_nostraillustriousmix_mainMixVAELUNA.safetensors"),
 
