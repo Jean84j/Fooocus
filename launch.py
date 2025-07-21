@@ -162,34 +162,23 @@ except ImportError:
 custom_models = [
         # Lora
     # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/SDXL_Midjourney_mimic.safetensors"),
-
-     # ("1Xw6kbWhVuv878ysypc4DyWz7nMYfIw4J", "./models/loras/Gwen_Tennyson_(Ben10)_XL_IL_V1.0.safetensors"),
     
+    ("1D1vrPPqNS_ELZUJRAOKfAwJsh3aI2t55", "./models/loras/ILXL_Realism_Slider_V.1.safetensors"),
 
         # Model
     # ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/IL_ilustmix_v6.safetensors")
 
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    
+    # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
-    # ("11L0siJlm0FanLGymsXOgquGqr9xpiuJa", "./models/checkpoints/IL_nostraillustriousmix_mainMixVAELUNA.safetensors"),
+    # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    # ("1rP8EYrPdxFhTKP7njcSb7-N-wu_SLihI", "./models/checkpoints/IL_novaCartoonXL_v20.safetensors"),
+    ("1_FpmZv5j0QpuZWD3zyZ56XphuhqwBCv5", "./models/checkpoints/IL_illustriousRealismBy_v10VAE.safetensors"),
+    
 
-     # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
-
-     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
-
-
-
- # gdown --id 1KZAXe3CYsgNWjXT7BtRAsWI1KxCq7sWU -O ./models/checkpoints/nostrarealisticmix_v10SDXLVAE.safetensors
-
- # gdown --id 1TXeQf0xvm_gTVjccgHoWWa3tCTlktiGl -O ./models/checkpoints/coolnameil_v4VAE.safetensors
-
- # gdown --id 1TTNDAgcbThkF78jQTx84q88l2hihSWbK -O ./models/checkpoints/cyberillustrious_v40.safetensors
-
- # gdown --id 1nYARuvk5QyzTJL98EuLkuNdqUpsPzMnM -O ./models/checkpoints/prefectiousXLNSFW_v10.safetensors    
 
 ]
 
