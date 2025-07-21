@@ -163,8 +163,6 @@ custom_models = [
         # Lora
     # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/SDXL_Midjourney_mimic.safetensors"),
     
-    ("1D1vrPPqNS_ELZUJRAOKfAwJsh3aI2t55", "./models/loras/ILXL_Realism_Slider_V.1.safetensors"),
-
         # Model
     # ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/IL_ilustmix_v6.safetensors")
 
@@ -176,10 +174,7 @@ custom_models = [
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    ("1_FpmZv5j0QpuZWD3zyZ56XphuhqwBCv5", "./models/checkpoints/IL_illustriousRealismBy_v10VAE.safetensors"),
-    
-
-
+    ("1e3PQwx2FghwaNcdxU88mGtMvK6h9Yi4E", "./models/checkpoints/IL_waiNSFWIllustrious_v110.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
