@@ -163,15 +163,15 @@ custom_models = [
         # Lora
     # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/SDXL_Midjourney_mimic.safetensors"),
 
-    # ("1LfafgURFBZ3XCg3kWqKfUajs0v4s7IjO", "./models/loras/IL_Detailer_NoobAI_Incrs_v1.safetensors"),
+    ("1LfafgURFBZ3XCg3kWqKfUajs0v4s7IjO", "./models/loras/IL_Detailer_NoobAI_Incrs_v1.safetensors"),
    
     
         # Model
     # ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/IL_ilustmix_v6.safetensors")
 
-    ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
+    # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
     
     # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
