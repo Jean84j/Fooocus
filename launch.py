@@ -171,6 +171,8 @@ custom_models = [
 
     ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
 
+    ("1l0RoWcVc8WtWSmUhBLOP7LTZkTXLr1cP", "./models/loras/IL_AA_bhd_ill.safetensors"),
+
     
         # Model
     # ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/IL_ilustmix_v6.safetensors")
