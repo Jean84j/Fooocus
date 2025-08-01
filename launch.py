@@ -173,11 +173,11 @@ custom_models = [
 
     
         # Model
-    ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/IL_ilustmix_v6.safetensors")
+    # ("1WCI4-hxB2Y4boSkNljuds7Bsq99Vil-D", "./models/checkpoints/IL_ilustmix_v6.safetensors")
 
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
 
     # ("1idhWjH25OoqMOV12a6dvz_9XYLu6W7t3", "./models/checkpoints/PN_.safetensors"),
 
