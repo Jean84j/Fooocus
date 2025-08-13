@@ -178,7 +178,7 @@ custom_models = [
         # Model
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
 
     # ("1idhWjH25OoqMOV12a6dvz_9XYLu6W7t3", "./models/checkpoints/PN_.safetensors"),
 
@@ -186,7 +186,7 @@ custom_models = [
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    ("1e3PQwx2FghwaNcdxU88mGtMvK6h9Yi4E", "./models/checkpoints/IL_waiNSFWIllustrious_v110.safetensors"),
+    # ("1e3PQwx2FghwaNcdxU88mGtMvK6h9Yi4E", "./models/checkpoints/IL_waiNSFWIllustrious_v110.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
