@@ -1,7 +1,0 @@
-{
-    "default_negative_prompt": "low quality",
-    "default_positive_prompt": "",
-    "default_styles": [
-        "Fooocus V2"
-    ]
-}
