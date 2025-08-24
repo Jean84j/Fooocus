@@ -167,6 +167,8 @@ custom_models = [
 
     # ("1IMafY9Jvm76P5DHgdmOKnw8kHCxfoqXK", "./models/loras/PN_NSFW_slider_PXL_last.safetensors"),
 
+    ("1qsBSE81eAsxTyYIu7U3SNRzHgDFV2fH4", "./models/loras/PN_ArielPonyXL_character-10.safetensors"),
+
     # ("1nyGU-uABMBKmGa6ZrPLp3fV3T8pI9ES6", "./models/loras/IL_Akabur_IllustriousV1.safetensors"),
 
     # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
