@@ -167,17 +167,10 @@ custom_models = [
 
     # ("1IMafY9Jvm76P5DHgdmOKnw8kHCxfoqXK", "./models/loras/PN_NSFW_slider_PXL_last.safetensors"),
 
-    # ("1Ckywu_Nrue7sTVVpaHwsZJQgIiKg_nPP", "./models/loras/PN_Lunas-Sparrow-SDXL-A1.safetensors"),
-
     # ("1nyGU-uABMBKmGa6ZrPLp3fV3T8pI9ES6", "./models/loras/IL_Akabur_IllustriousV1.safetensors"),
 
     # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
     
-    ("1lmN7kB_mmTcM58EPPMPGMORu2yopoazt", "./models/loras/IL_GwenTen‐Illus-13.safetensors"),
-
-    ("11EVJnPr4kdCnkV3_YYngkEi6KoqfD9S5", "./models/loras/IL_dcaustyle-4i-illu.safetensors"),
-
-    ("1aCmJ4Muu_rSAYRP21ubgBKWJruoPCWq3", "./models/loras/IL_Gwen Tennyson (Ben10) - XL IL V1.0.safetensors"),
 
     # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
     
