@@ -171,7 +171,7 @@ custom_models = [
 
     ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
     
-    ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
+    # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
     
         # Model
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
@@ -180,9 +180,9 @@ custom_models = [
 
     # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
-    ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
+    # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    # ("1e3PQwx2FghwaNcdxU88mGtMvK6h9Yi4E", "./models/checkpoints/IL_waiNSFWIllustrious_v110.safetensors"),
+    ("1e3PQwx2FghwaNcdxU88mGtMvK6h9Yi4E", "./models/checkpoints/IL_waiNSFWIllustrious_v110.safetensors"),
 
 ]
 
