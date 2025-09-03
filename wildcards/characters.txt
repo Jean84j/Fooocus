@@ -1,4 +1,5 @@
 Rapunzel
+Ariel
 Lara Croft
 Samus Aran
 Hermione Granger
@@ -229,4 +230,5 @@ Mash Kyrielight
 Artoria Pendragon
 Scathach
 Mordred Pendragon
+
 Jeanne d'Arc
