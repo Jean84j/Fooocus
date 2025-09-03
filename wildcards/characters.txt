@@ -186,7 +186,6 @@ Ran Yakumo
 Chen (Touhou)
 Alice Margatroid
 Cirno
-Reisen Udongein Inaba
 Tewi Inaba
 Mamizou Futatsuiwa
 Aya Shameimaru
@@ -197,7 +196,6 @@ Hina Kagiyama
 Keine Kamishirasawa
 Komachi Onozuka
 Shikieiki Yamaxanadu
-Momiji Inubashiri
 Sekibanki
 Clara (original anime character)
 Lala Satalin Deviluke
@@ -230,3 +228,4 @@ Artoria Pendragon
 Scathach
 Mordred Pendragon
 Jeanne d'Arc
+
