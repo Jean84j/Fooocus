@@ -1,6 +1,8 @@
 Rapunzel
 Ariel
 Lara Croft
+SuperGirl
+Katara
 Samus Aran
 Hermione Granger
 Princess Leia
@@ -15,9 +17,7 @@ Chun-Li
 Cammy White
 Tifa Lockhart
 Aerith Gainsborough
-Zelda
 Linkle
-Ahri
 Jaina Proudmoore
 Triss Merigold
 Yennefer of Vengerberg
@@ -39,7 +39,6 @@ Emma Frost
 Black Canary
 Poison Ivy
 Harley Quinn
-Velma Dinkley
 Alice (Alice in Wonderland)
 Elsa (Frozen)
 Anna (Frozen)
@@ -58,7 +57,6 @@ Mercy (Overwatch)
 D.va (Overwatch)
 Pharah (Overwatch)
 Luna (Sailor Moon)
-Usagi Tsukino
 Rei Hino
 Makoto Kino
 Minako Aino
@@ -88,7 +86,6 @@ Motoko Kusanagi
 Major Kusanagi
 Ryuko Matoi
 Satsuki Kiryuuin
-Nonon Jakuzure
 Mako Mankanshoku
 Yoko Littner
 Sheryl Nome
@@ -97,39 +94,29 @@ Cecilia Alcott
 Rias Gremory
 Akeno Himejima
 Asia Argento
-Koneko Toujou
 Kurumi Tokisaki
 Yui Kotegawa
 Misaki Ayuzawa
 Chidori Kaname
 Kaname Chidori
-Nao Tomori
 Rikka Takanashi
 Shinobu Oshino
 Hitagi Senjougahara
-Mayoi Hachikuji
 Tsubasa Hanekawa
-Holo (Spice and Wolf)
 Shana (Shakugan no Shana)
 Lina Inverse
 Naga the Serpent
 Faye Valentine
-Deedlit
 Pirotess
 Leina Vance
 Dorothy Catalonia
 Rin Tohsaka
 Saber (Fate)
 Rider (Fate)
-Caster (Fate)
-Illyasviel von Einzbern
 Mash Kyrielight
 Okita Souji (female)
-Katsushika Hokusai (female)
 Tomoe Gozen
 Oda Nobunaga (female)
-Murasaki Shikibu (female)
-Junko Enoshima
 Mukuro Ikusaba
 Celestia Ludenberg
 Sayaka Maizono
@@ -137,7 +124,6 @@ Komaru Naegi
 Chiaki Nanami
 Mikan Tsumiki
 Hiyoko Saionji
-Ibuki Mioda
 Sonia Nevermind
 Hajime Hinata (female)
 Kokichi Oma (female)
@@ -175,7 +161,6 @@ Fuko Ibuki
 Sunohara Ayu (female)
 Sanae Kochiya
 Reimu Hakurei
-Marisa Kirisame
 Sakuya Izayoi
 Remilia Scarlet
 Flandre Scarlet
@@ -185,17 +170,11 @@ Yuyuko Saigyouji
 Ran Yakumo
 Chen (Touhou)
 Alice Margatroid
-Cirno
-Tewi Inaba
-Mamizou Futatsuiwa
-Aya Shameimaru
-Nitori Kawashiro
 Suika Ibuki
 Sanae Kochiya
 Hina Kagiyama
 Keine Kamishirasawa
 Komachi Onozuka
-Shikieiki Yamaxanadu
 Sekibanki
 Clara (original anime character)
 Lala Satalin Deviluke
@@ -206,7 +185,6 @@ Haruna Sairenji
 Konjiki no Yami
 Mikan Yuuki
 Rito Yuuki (female)
-Shana (female)
 Euphemia li Britannia
 C.C. (Code Geass)
 Kallen Stadtfeld
@@ -222,10 +200,10 @@ Saber (Fate/Stay Night)
 Rin Tohsaka
 Lancer (Fate female)
 Caster (Fate female)
-Illyasviel von Einzbern
 Mash Kyrielight
 Artoria Pendragon
 Scathach
 Mordred Pendragon
 Jeanne d'Arc
+
 
