@@ -43,7 +43,6 @@ Velma Dinkley
 Alice (Alice in Wonderland)
 Elsa (Frozen)
 Anna (Frozen)
-Moana
 Merida (Brave)
 Mulan
 Judy Hopps
@@ -230,5 +229,4 @@ Mash Kyrielight
 Artoria Pendragon
 Scathach
 Mordred Pendragon
-
 Jeanne d'Arc
