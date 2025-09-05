@@ -22,13 +22,11 @@ Jaina Proudmoore
 Triss Merigold
 Yennefer of Vengerberg
 Ciri
-Bayonetta
 Kitana
 Mileena
 Ada Wong
 Lightning
 Rikku
-Yuna
 Kairi
 Sora (female)
 Raven (Teen Titans)
@@ -137,7 +135,6 @@ Gonta Gokuhara (female)
 Tsumugi Shirogane
 Ryoma Hoshi (female)
 Kaede (Danganronpa female version)
-Yui Hirasawa
 Mio Akiyama
 Ritsu Tainaka
 Tsumugi Kotobuki
@@ -160,15 +157,12 @@ Kotomi Ichinose
 Fuko Ibuki
 Sunohara Ayu (female)
 Sanae Kochiya
-Reimu Hakurei
 Sakuya Izayoi
 Remilia Scarlet
 Flandre Scarlet
-Patchouli Knowledge
 Youmu Konpaku
 Yuyuko Saigyouji
 Ran Yakumo
-Chen (Touhou)
 Alice Margatroid
 Suika Ibuki
 Sanae Kochiya
@@ -203,7 +197,3 @@ Artoria Pendragon
 Scathach
 Mordred Pendragon
 Jeanne d'Arc
-
-
-
-
