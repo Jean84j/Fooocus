@@ -42,7 +42,6 @@ Elsa (Frozen)
 Anna (Frozen)
 Merida (Brave)
 Mulan
-Judy Hopps
 Korra
 Ashe (Overwatch)
 Brigitte (Overwatch)
@@ -197,3 +196,4 @@ Artoria Pendragon
 Scathach
 Mordred Pendragon
 Jeanne d'Arc
+
