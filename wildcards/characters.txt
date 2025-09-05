@@ -160,7 +160,6 @@ Sakuya Izayoi
 Remilia Scarlet
 Flandre Scarlet
 Youmu Konpaku
-Yuyuko Saigyouji
 Ran Yakumo
 Alice Margatroid
 Suika Ibuki
@@ -196,4 +195,5 @@ Artoria Pendragon
 Scathach
 Mordred Pendragon
 Jeanne d'Arc
+
 
