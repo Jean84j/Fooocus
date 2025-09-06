@@ -158,7 +158,6 @@ Sunohara Ayu (female)
 Sanae Kochiya
 Sakuya Izayoi
 Remilia Scarlet
-Flandre Scarlet
 Youmu Konpaku
 Ran Yakumo
 Alice Margatroid
@@ -195,5 +194,6 @@ Artoria Pendragon
 Scathach
 Mordred Pendragon
 Jeanne d'Arc
+
 
 
