@@ -169,9 +169,11 @@ custom_models = [
 
     # ("1nyGU-uABMBKmGa6ZrPLp3fV3T8pI9ES6", "./models/loras/IL_Akabur_IllustriousV1.safetensors"),
 
-    ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
+    # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
     
     # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
+
+     ("1_w4v8rcLC2YR300BQj1K_GA0ofG4TAnd", "./models/loras/IL_melnica_IL_v1.0.safetensors"),
     
         # Model
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
