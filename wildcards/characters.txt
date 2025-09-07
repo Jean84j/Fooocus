@@ -49,7 +49,6 @@ Tracer (Overwatch)
 Sombra (Overwatch)
 Widowmaker (Overwatch)
 Zarya (Overwatch)
-Mei (Overwatch)
 Mercy (Overwatch)
 D.va (Overwatch)
 Pharah (Overwatch)
@@ -99,7 +98,6 @@ Kaname Chidori
 Rikka Takanashi
 Shinobu Oshino
 Hitagi Senjougahara
-Tsubasa Hanekawa
 Shana (Shakugan no Shana)
 Lina Inverse
 Naga the Serpent
@@ -128,8 +126,6 @@ Kaede Akamatsu
 Kirumi Tojo
 Rantaro Amami (female)
 Angie Yonaga (female)
-Tenko Chabashira
-Miu Iruma
 Gonta Gokuhara (female)
 Tsumugi Shirogane
 Ryoma Hoshi (female)
@@ -147,7 +143,6 @@ Mikuru Asahina
 Haruhi Suzumiya
 Tsuruya
 Ryoko Asakura
-Itsuki Koizumi (female)
 Nagisa Furukawa
 Tomoya Okazaki (female)
 Kyou Fujibayashi
@@ -159,9 +154,7 @@ Sanae Kochiya
 Sakuya Izayoi
 Remilia Scarlet
 Youmu Konpaku
-Ran Yakumo
 Alice Margatroid
-Suika Ibuki
 Sanae Kochiya
 Hina Kagiyama
 Keine Kamishirasawa
@@ -194,6 +187,7 @@ Artoria Pendragon
 Scathach
 Mordred Pendragon
 Jeanne d'Arc
+
 
 
 
