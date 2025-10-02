@@ -161,7 +161,7 @@ except ImportError:
 # Загрузка кастомных моделей
 custom_models = [
         # Lora
-    ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/SDXL_Midjourney_mimic.safetensors"),
+    # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/SDXL_Midjourney_mimic.safetensors"),
 
     # ("1LfafgURFBZ3XCg3kWqKfUajs0v4s7IjO", "./models/loras/IL_Detailer_NoobAI_Incrs_v1.safetensors"),
 
@@ -173,17 +173,17 @@ custom_models = [
     
     # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
 
-    # ("1_w4v8rcLC2YR300BQj1K_GA0ofG4TAnd", "./models/loras/IL_melnica_IL_v1.0.safetensors"),
+    ("1_w4v8rcLC2YR300BQj1K_GA0ofG4TAnd", "./models/loras/IL_melnica_IL_v1.0.safetensors"),
     
-    ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
-    ("1ARLq27ADiXqk1YxtYE5Gfp4OUhxiwiXo", "./models/loras/Animated_Concept.safetensors"),
-    ("1lMMGPvQdH3Y_mKMVz2e24aEGz6Tcn-Xf", "./models/loras/J_cartoon.safetensors"),
-    ("1rv22DEbpUbtbxJa7o7bSO0R7GE1rHpD5", "./models/loras/sam_yang.safetensors"),
+    # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
+    # ("1ARLq27ADiXqk1YxtYE5Gfp4OUhxiwiXo", "./models/loras/Animated_Concept.safetensors"),
+    # ("1lMMGPvQdH3Y_mKMVz2e24aEGz6Tcn-Xf", "./models/loras/J_cartoon.safetensors"),
+    # ("1rv22DEbpUbtbxJa7o7bSO0R7GE1rHpD5", "./models/loras/sam_yang.safetensors"),
     
         # Model
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
 
     # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
@@ -191,7 +191,7 @@ custom_models = [
 
     # ("1e3PQwx2FghwaNcdxU88mGtMvK6h9Yi4E", "./models/checkpoints/IL_waiNSFWIllustrious_v110.safetensors"),
 
-    ("1t8gknKyAoS367FEw4U-oqcWCwN9EBuVD", "./models/checkpoints/PN_realcartoonPony_v3.safetensors"),
+    # ("1t8gknKyAoS367FEw4U-oqcWCwN9EBuVD", "./models/checkpoints/PN_realcartoonPony_v3.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
