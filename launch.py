@@ -163,13 +163,13 @@ custom_models = [
         # Lora
     # ("1AlteuN2FwPEGj__DvopiJzuPIl8lQr6Z", "./models/loras/SDXL_Midjourney_mimic.safetensors"),
 
-    ("1LfafgURFBZ3XCg3kWqKfUajs0v4s7IjO", "./models/loras/IL_Detailer_NoobAI_Incrs_v1.safetensors"),
+    # ("1LfafgURFBZ3XCg3kWqKfUajs0v4s7IjO", "./models/loras/IL_Detailer_NoobAI_Incrs_v1.safetensors"),
 
     # ("1IMafY9Jvm76P5DHgdmOKnw8kHCxfoqXK", "./models/loras/PN_NSFW_slider_PXL_last.safetensors"),
 
     # ("1nyGU-uABMBKmGa6ZrPLp3fV3T8pI9ES6", "./models/loras/IL_Akabur_IllustriousV1.safetensors"),
 
-    # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
+    ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
     
     # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
 
@@ -177,7 +177,7 @@ custom_models = [
 
     ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
 
-    # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
+    ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
     # ("1ARLq27ADiXqk1YxtYE5Gfp4OUhxiwiXo", "./models/loras/Animated_Concept.safetensors"),
     # ("1lMMGPvQdH3Y_mKMVz2e24aEGz6Tcn-Xf", "./models/loras/J_cartoon.safetensors"),
     # ("1rv22DEbpUbtbxJa7o7bSO0R7GE1rHpD5", "./models/loras/sam_yang.safetensors"),
