@@ -169,15 +169,15 @@ custom_models = [
 
     # ("1nyGU-uABMBKmGa6ZrPLp3fV3T8pI9ES6", "./models/loras/IL_Akabur_IllustriousV1.safetensors"),
 
-    ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
+    # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
     
     # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
 
     # ("1_w4v8rcLC2YR300BQj1K_GA0ofG4TAnd", "./models/loras/IL_melnica_IL_v1.0.safetensors"),
 
-    ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
+    # ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
 
-    ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
+    # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
     # ("1ARLq27ADiXqk1YxtYE5Gfp4OUhxiwiXo", "./models/loras/Animated_Concept.safetensors"),
     # ("1lMMGPvQdH3Y_mKMVz2e24aEGz6Tcn-Xf", "./models/loras/J_cartoon.safetensors"),
     # ("1rv22DEbpUbtbxJa7o7bSO0R7GE1rHpD5", "./models/loras/sam_yang.safetensors"),
@@ -185,7 +185,7 @@ custom_models = [
         # Model
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
 
     # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
