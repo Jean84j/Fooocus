@@ -169,7 +169,7 @@ custom_models = [
 
     # ("1nyGU-uABMBKmGa6ZrPLp3fV3T8pI9ES6", "./models/loras/IL_Akabur_IllustriousV1.safetensors"),
 
-    # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
+    ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
     
     # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
 
@@ -191,7 +191,7 @@ custom_models = [
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    # ("1t8gknKyAoS367FEw4U-oqcWCwN9EBuVD", "./models/checkpoints/PN_realcartoonPony_v3.safetensors"),
+    ("1t8gknKyAoS367FEw4U-oqcWCwN9EBuVD", "./models/checkpoints/PN_realcartoonPony_v3.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
