@@ -175,7 +175,7 @@ custom_models = [
 
     # ("1_w4v8rcLC2YR300BQj1K_GA0ofG4TAnd", "./models/loras/IL_melnica_IL_v1.0.safetensors"),
 
-    ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
+    # ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
 
      ("1uReo_jpjdUqGhSNzuUpw2to1_uJ7raBj", "./models/loras/IL_Disney_Animation_v5-V7.safetensors"),
 
@@ -188,7 +188,7 @@ custom_models = [
         # Model
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
+    # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
 
     # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
