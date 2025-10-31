@@ -179,6 +179,7 @@ custom_models = [
 
      ("1uReo_jpjdUqGhSNzuUpw2to1_uJ7raBj", "./models/loras/IL_Disney_Animation_v5-V7.safetensors"),
 
+     ("1AecgFTfqwefTz5UjJUuNY02DwRFmdQPP", "./models/loras/IL_incoth.safetensors"),
 
     # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
     # ("1ARLq27ADiXqk1YxtYE5Gfp4OUhxiwiXo", "./models/loras/Animated_Concept.safetensors"),
