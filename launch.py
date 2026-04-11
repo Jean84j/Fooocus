@@ -173,7 +173,7 @@ custom_models = [
     
     # ("1nrEsMevfdbcf6M0d-Ft20EbGq1fcjYHD", "./models/loras/IL_BonnieRockwallerIllustrious2.0JLFO.safetensors"),
 
-    ("1_w4v8rcLC2YR300BQj1K_GA0ofG4TAnd", "./models/loras/IL_melnica_IL_v1.0.safetensors"),
+    # ("1_w4v8rcLC2YR300BQj1K_GA0ofG4TAnd", "./models/loras/IL_melnica_IL_v1.0.safetensors"),
 
     # ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
 
