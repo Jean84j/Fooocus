@@ -182,8 +182,8 @@ custom_models = [
      # ("1AecgFTfqwefTz5UjJUuNY02DwRFmdQPP", "./models/loras/IL_incoth.safetensors"),
 
     ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
-    ("1ARLq27ADiXqk1YxtYE5Gfp4OUhxiwiXo", "./models/loras/Animated_Concept.safetensors"),
-    ("1lMMGPvQdH3Y_mKMVz2e24aEGz6Tcn-Xf", "./models/loras/J_cartoon.safetensors"),
+    # ("1ARLq27ADiXqk1YxtYE5Gfp4OUhxiwiXo", "./models/loras/Animated_Concept.safetensors"),
+    # ("1lMMGPvQdH3Y_mKMVz2e24aEGz6Tcn-Xf", "./models/loras/J_cartoon.safetensors"),
     # ("1rv22DEbpUbtbxJa7o7bSO0R7GE1rHpD5", "./models/loras/sam_yang.safetensors"),
     
         # Model
