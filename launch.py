@@ -187,9 +187,9 @@ custom_models = [
     # ("1rv22DEbpUbtbxJa7o7bSO0R7GE1rHpD5", "./models/loras/sam_yang.safetensors"),
     
         # Model
-    # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
+    ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
+    # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
 
     # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/PN_realcartoonPony_v3.safetensors"),
 
