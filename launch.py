@@ -189,13 +189,13 @@ custom_models = [
         # Model
     # ("1bt8BsjP2N9E1lXxawzVv-WIfJARDtzDo", "./models/checkpoints/PN_animergePonyXL_v60.safetensors"),
 
-    ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
+    # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
 
     # ("1CsHcxXTQOB_25UARq8C4B8Vg2AGP6ORF", "./models/checkpoints/IL_JedpointReal.safetensors"),
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    # ("1t8gknKyAoS367FEw4U-oqcWCwN9EBuVD", "./models/checkpoints/PN_realcartoonPony_v3.safetensors"),
+    ("1t8gknKyAoS367FEw4U-oqcWCwN9EBuVD", "./models/checkpoints/PN_realcartoonPony_v3.safetensors"),
 
     # ("1dMSbJoFG4MOVcqRRXpbK0HN8PdYyFW3-", "./models/checkpoints/IL_ilustmix_v70Cinematic.safetensors"),
 
