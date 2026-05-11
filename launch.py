@@ -173,9 +173,9 @@ custom_models = [
     
         # Model
    
-    # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
+    ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
 
-    ("14-0Qj_RvoXhwkfvWY-Sp_KXzMTXDrWLs", "./models/checkpoints/SDXL_epicrealismXL_pureFix.safetensors"),
+    # ("14-0Qj_RvoXhwkfvWY-Sp_KXzMTXDrWLs", "./models/checkpoints/SDXL_epicrealismXL_pureFix.safetensors"),
     
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
