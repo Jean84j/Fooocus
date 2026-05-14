@@ -166,7 +166,7 @@ custom_models = [
     
     # ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
 
-    # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
+    ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
 
     # ("148mOzwc8BoUoJfvPAqTfQWg4BaSE30nD", "./models/loras/SDXL_subtle-rayness2-xl25.safetensors"),
 
