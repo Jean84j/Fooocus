@@ -162,7 +162,7 @@ except ImportError:
 custom_models = [
         # Lora
 
-    ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
+    # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
     
     # ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
 
@@ -173,10 +173,9 @@ custom_models = [
     
         # Model
    
-    ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
+    # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
 
-    # ("14-0Qj_RvoXhwkfvWY-Sp_KXzMTXDrWLs", "./models/checkpoints/SDXL_epicrealismXL_pureFix.safetensors"),
-    
+    ("1GoipkKqm1UngWXlRG9phwWG11vuzIBWk", "./models/checkpoints/MergePonyxl_ponyxlHybrid_uberRealistic.safetensors"),
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
