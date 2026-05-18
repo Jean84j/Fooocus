@@ -178,9 +178,9 @@ custom_models = [
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
+    ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
-    ("1JrU0dLNwLUOlwdSVPYtScDtPoavAD2pR", "./models/checkpoints/IL_ilustmix_v10.safetensors"),
+    # ("1JrU0dLNwLUOlwdSVPYtScDtPoavAD2pR", "./models/checkpoints/IL_ilustmix_v10.safetensors"),
 
 ]
 
