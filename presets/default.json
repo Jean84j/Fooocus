@@ -35,7 +35,7 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt_negative": "(worst quality, low quality), error, bad anatomy, bad hands, watermark, ugly, distorted, censored, lowres, signature,",
     "default_styles": [
       
     ],
