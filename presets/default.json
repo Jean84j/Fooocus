@@ -1,5 +1,5 @@
 {
-    "default_model": "IL_ilustmix_v111.safetensors",
+    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -42,7 +42,7 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-       "IL_ilustmix_v111.safetensors": "https://drive.google.com/file/d/1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi/view?usp=drive_link"
+        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
