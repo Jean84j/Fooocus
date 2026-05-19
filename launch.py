@@ -167,8 +167,6 @@ custom_models = [
     # ("1C4PivFDluh0Bp9TR4nVYHt6JpzRp4g0v", "./models/loras/IL_DigitalMatte_Illustrious.safetensors"),
 
     # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
-
-    # ("1g_WpORLrKTrhnv6wsi-1lCwa-KtnqV5f", "./models/loras/SDXL_subtle-rayness2.safetensors"),
     
         # Model
    
@@ -178,11 +176,7 @@ custom_models = [
 
     # ("1S8jTIvz8q5QYWz_ieo58_C2iTwfOuHyb", "./models/checkpoints/IL_waiNSFWIllustrious_v140.safetensors"),
 
-    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
-
-    # ("1JrU0dLNwLUOlwdSVPYtScDtPoavAD2pR", "./models/checkpoints/IL_ilustmix_v10.safetensors"),
-
-    ("1essSOrF95mN1V10jknFHQHr4uPcUBRyj", "./models/checkpoints/FL_gonzalomoXLFluxPony_v70PhotoXL.safetensors"),
+    ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
 ]
 
