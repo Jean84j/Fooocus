@@ -168,9 +168,9 @@ custom_models = [
 
     # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
 
-    ("1G8zJqZx1uwjgaeBh3tReMuoHbFWgPq9z", "./models/loras/XL_igbaddie-XL.safetensors"),
+    # ("1G8zJqZx1uwjgaeBh3tReMuoHbFWgPq9z", "./models/loras/XL_igbaddie-XL.safetensors"),
 
-    ("1j-qppXc2MfPDEY_2IkRHgr-9oexdcijn", "./models/loras/XL_Photov3-000008.safetensors"),
+    # ("1j-qppXc2MfPDEY_2IkRHgr-9oexdcijn", "./models/loras/XL_Photov3-000008.safetensors"),
 
         # Model
    
