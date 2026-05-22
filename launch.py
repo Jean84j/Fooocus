@@ -182,8 +182,9 @@ custom_models = [
 
     # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
-     ("1JzzDif7o7w6IRjXYCkbiIIvVydRPbEYt", "./models/checkpoints/SDXL_photo4.safetensors"),
+     # ("1JzzDif7o7w6IRjXYCkbiIIvVydRPbEYt", "./models/checkpoints/SDXL_photo4.safetensors"),
 
+    ("12NHYSGXiNQx_UcgLTpDXF2OHZ6Vng4LJ", "./models/checkpoints/SDXL_ultra1.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
