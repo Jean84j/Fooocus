@@ -174,7 +174,7 @@ custom_models = [
 
         # Model
    
-    ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
+    # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
 
     # ("1GoipkKqm1UngWXlRG9phwWG11vuzIBWk", "./models/checkpoints/MergePonyxl_ponyxlHybrid_uberRealistic.safetensors"),
 
@@ -184,7 +184,7 @@ custom_models = [
 
      # ("1JzzDif7o7w6IRjXYCkbiIIvVydRPbEYt", "./models/checkpoints/SDXL_photo4.safetensors"),
 
-    # ("12NHYSGXiNQx_UcgLTpDXF2OHZ6Vng4LJ", "./models/checkpoints/SDXL_ultra1.safetensors"),
+    ("12NHYSGXiNQx_UcgLTpDXF2OHZ6Vng4LJ", "./models/checkpoints/SDXL_ultra1.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
