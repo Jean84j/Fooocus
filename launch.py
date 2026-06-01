@@ -174,6 +174,8 @@ custom_models = [
 
     ("18xaVUxW_MESVM0nQO-PiF3F_yxavmytd", "./models/loras/SDXL_face_alpha1.0_rank4_noxattn_last.safetensors"),
 
+    ("1c8piIJ_PeLzbH2ohckFc_-TjXU9eA0xH", "./models/loras/SDXL_subtle-rayness2-xl25.safetensors"),
+
         # Model
    
     ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
