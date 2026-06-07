@@ -182,9 +182,9 @@ custom_models = [
 
     # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
-     # ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
+     ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
 
-     ("1YDH9lMJwXtPLIxAu-NfTAeW1H5jEeggu", "./models/checkpoints/SDXL_intorealism_zitV50.safetensors"),
+     # ("1YDH9lMJwXtPLIxAu-NfTAeW1H5jEeggu", "./models/checkpoints/SDXL_intorealism_zitV50.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
