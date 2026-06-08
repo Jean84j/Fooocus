@@ -162,7 +162,7 @@ except ImportError:
 custom_models = [
         # Lora
 
-    # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
+    ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
 
     # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
 
@@ -170,7 +170,7 @@ custom_models = [
 
     # ("1j-qppXc2MfPDEY_2IkRHgr-9oexdcijn", "./models/loras/XL_Photov3-000008.safetensors"),
 
-    ("18xaVUxW_MESVM0nQO-PiF3F_yxavmytd", "./models/loras/SDXL_face_alpha1.0_rank4_noxattn_last.safetensors"),
+    # ("18xaVUxW_MESVM0nQO-PiF3F_yxavmytd", "./models/loras/SDXL_face_alpha1.0_rank4_noxattn_last.safetensors"),
 
     # ("1c8piIJ_PeLzbH2ohckFc_-TjXU9eA0xH", "./models/loras/SDXL_subtle-rayness2-xl25.safetensors"),
 
@@ -180,9 +180,9 @@ custom_models = [
 
     # ("1GoipkKqm1UngWXlRG9phwWG11vuzIBWk", "./models/checkpoints/MergePonyxl_ponyxlHybrid_uberRealistic.safetensors"),
 
-    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
+    ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
-     ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
+     # ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
 
      # ("1YDH9lMJwXtPLIxAu-NfTAeW1H5jEeggu", "./models/checkpoints/SDXL_intorealism_zitV50.safetensors"),
 ]
