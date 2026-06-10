@@ -180,11 +180,11 @@ custom_models = [
 
     # ("1GoipkKqm1UngWXlRG9phwWG11vuzIBWk", "./models/checkpoints/MergePonyxl_ponyxlHybrid_uberRealistic.safetensors"),
 
-    ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
+    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
      # ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
 
-     # ("1UNxDowrzp9iI6CPsHB0A0VToeI9dQUyI", "./models/checkpoints/SDXL_lustifySDXLNSFW_apexV8.safetensors"),
+     ("1UNxDowrzp9iI6CPsHB0A0VToeI9dQUyI", "./models/checkpoints/SDXL_lustifySDXLNSFW_apexV8.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
