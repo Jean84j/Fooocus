@@ -168,7 +168,7 @@ custom_models = [
 
     # ("1G8zJqZx1uwjgaeBh3tReMuoHbFWgPq9z", "./models/loras/XL_igbaddie-XL.safetensors"),
 
-    ("1j-qppXc2MfPDEY_2IkRHgr-9oexdcijn", "./models/loras/XL_Photov3-000008.safetensors"),
+    # ("1j-qppXc2MfPDEY_2IkRHgr-9oexdcijn", "./models/loras/XL_Photov3-000008.safetensors"),
 
     ("18xaVUxW_MESVM0nQO-PiF3F_yxavmytd", "./models/loras/SDXL_face_alpha1.0_rank4_noxattn_last.safetensors"),
 
@@ -180,11 +180,11 @@ custom_models = [
 
     # ("1GoipkKqm1UngWXlRG9phwWG11vuzIBWk", "./models/checkpoints/MergePonyxl_ponyxlHybrid_uberRealistic.safetensors"),
 
-    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
+    ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
      # ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
 
-     ("1UNxDowrzp9iI6CPsHB0A0VToeI9dQUyI", "./models/checkpoints/SDXL_lustifySDXLNSFW_apexV8.safetensors"),
+     # ("1UNxDowrzp9iI6CPsHB0A0VToeI9dQUyI", "./models/checkpoints/SDXL_lustifySDXLNSFW_apexV8.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
