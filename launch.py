@@ -149,4 +149,50 @@ config.default_base_model_name, config.checkpoint_downloads = download_models(
 config.update_files()
 init_cache(config.model_filenames, config.paths_checkpoints, config.lora_filenames, config.paths_loras)
 
+# ======= ДОПОЛНИТЕЛЬНАЯ ЗАГРУЗКА МОДЕЛЕЙ ЧЕРЕЗ GDOWN =======
+import subprocess
+
+# Устанавливаем gdown, если не установлен
+try:
+    import gdown
+except ImportError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "gdown"])
+
+# Загрузка кастомных моделей
+custom_models = [
+        # Lora
+
+    # ("1EUHnEX3gXrprtrRJ0FZm_Z07JP0NGZ8Y", "./models/loras/IL_NM_Chani_ill.safetensors"),
+
+    # ("1Z--IMPm6sM7f-7I8u11nmlnBrw605vX0", "./models/loras/BUT_SDXL_SHS.safetensors"),
+
+    ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
+    
+    ("1o5ilRANPIkHS5rgoUiIkp7JMIaUNxKAK", "./models/loras/XL_novuschroma13_style_2.safetensors"),
+
+    # ("18xaVUxW_MESVM0nQO-PiF3F_yxavmytd", "./models/loras/SDXL_face_alpha1.0_rank4_noxattn_last.safetensors"),
+
+    # ("1c8piIJ_PeLzbH2ohckFc_-TjXU9eA0xH", "./models/loras/SDXL_subtle-rayness2-xl25.safetensors"),
+
+        # Model
+   
+    # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
+
+    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
+
+     # ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
+
+     # ("1UNxDowrzp9iI6CPsHB0A0VToeI9dQUyI", "./models/checkpoints/SDXL_lustifySDXLNSFW_apexV8.safetensors"),
+
+     ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
+]
+
+for file_id, output_path in custom_models:
+    if not os.path.exists(output_path):
+        print(f"Загружаем {output_path} ...")
+        subprocess.run(["gdown", "--id", file_id, "-O", output_path])
+    else:
+        print(f"Файл уже существует: {output_path}")
+
+
 from webui import *
