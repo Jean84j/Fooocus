@@ -178,13 +178,13 @@ custom_models = [
    
     # ("1qY5im7L2gtGHb4thr7iMVwUbwUooj4E4", "./models/checkpoints/SDXL_lustifySDXLNSFW_ggwpV7.safetensors"),
 
-    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
+    ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
      # ("1NHMsveULydumNt_6cnt-ajj_5zvvq4-0", "./models/checkpoints/SDXL_rawcharmAmateur_v20VAE.safetensors"),
 
      # ("1UNxDowrzp9iI6CPsHB0A0VToeI9dQUyI", "./models/checkpoints/SDXL_lustifySDXLNSFW_apexV8.safetensors"),
 
-     ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
+     # ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
