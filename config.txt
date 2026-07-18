@@ -16,5 +16,37 @@
     "path_wildcards": "/content/Fooocus/wildcards",
     "path_safety_checker": "/content/Fooocus/models/safety_checker",
     "path_sam": "/content/Fooocus/models/sam",
-    "path_outputs": "/content/Fooocus/outputs"
+    "path_outputs": "/content/Fooocus/outputs",
+    "default_loras": [
+        [
+            true,
+            "None",
+            0.5
+        ],
+        [
+            true,
+            "None",
+             0.5
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ],
+        [
+            true,
+            "None",
+            1.0
+        ]
+    ],
+    "default_styles": [],
+    "default_prompt": "",
+    "default_prompt_negative": "(worst quality, low quality), error, bad anatomy, bad hands, watermark, ugly, distorted, censored, lowres, signature, milf, busty, ribs, muscular, sketch,",
+    "default_aspect_ratio": "768*1344",
+    "default_cfg_tsnr": 4.0
 }
