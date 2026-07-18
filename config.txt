@@ -17,4 +17,9 @@
     "path_safety_checker": "/content/Fooocus/models/safety_checker",
     "path_sam": "/content/Fooocus/models/sam",
     "path_outputs": "/content/Fooocus/outputs"
+    "default_negative_prompt": "low quality",
+    "default_positive_prompt": "",
+    "default_styles": [
+        "Fooocus V2",
+    ]
 }
