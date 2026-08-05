@@ -175,9 +175,9 @@ custom_models = [
 
      # ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
 
-     # ("1qTWs9JidcetT9VkF2odkNbwhyAexoDXg", "./models/checkpoints/SDXL_worksRealPhoto_v04.safetensors"),
+     ("1qTWs9JidcetT9VkF2odkNbwhyAexoDXg", "./models/checkpoints/SDXL_worksRealPhoto_v04.safetensors"),
 
-     ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
+     # ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
