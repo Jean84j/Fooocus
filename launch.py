@@ -164,7 +164,7 @@ custom_models = [
 
     ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
     
-    ("1GvWLLKh5n7riv6NKqm0Y6yhxSEd1JE9E", "./models/loras/XL_novuschroma13_style_2.safetensors"),
+    # ("1GvWLLKh5n7riv6NKqm0Y6yhxSEd1JE9E", "./models/loras/XL_novuschroma13_style_2.safetensors"),
 
      # ("1y9npO9sp_0lr4Atgm95_jz1swCvwljGe", "./models/loras/SDXL_Logo.safetensors"),
 
@@ -177,10 +177,10 @@ custom_models = [
 
      # ("1qTWs9JidcetT9VkF2odkNbwhyAexoDXg", "./models/checkpoints/SDXL_worksRealPhoto_v04.safetensors"),
 
-     ("1vVQVnGT89Du-n94Ce564FYUMIp356OuN", "./models/checkpoints/SDXL_worksRealPhoto_v03.safetensors"),
+     # ("1vVQVnGT89Du-n94Ce564FYUMIp356OuN", "./models/checkpoints/SDXL_worksRealPhoto_v03.safetensors"),
 
 
-     # ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
+     ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
