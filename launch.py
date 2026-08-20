@@ -173,14 +173,15 @@ custom_models = [
    
     # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
-     ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
+     # ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
 
      # ("1qTWs9JidcetT9VkF2odkNbwhyAexoDXg", "./models/checkpoints/SDXL_worksRealPhoto_v04.safetensors"),
 
      # ("1vVQVnGT89Du-n94Ce564FYUMIp356OuN", "./models/checkpoints/SDXL_worksRealPhoto_v03.safetensors"),
 
-
      # ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
+
+      ("1pLlDKVXDCpC1HpaNYRQDNnqgenqrWUwO", "./models/checkpoints/SDXL_epicphotonicXL_r1.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
