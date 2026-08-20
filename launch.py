@@ -181,7 +181,7 @@ custom_models = [
 
      # ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
 
-    ("1Yixg_qcM66wRr5VBn4oM0271W_yA7xXr", "./models/checkpoints/V4INT8NVFP4BF16_v4Nvfp4.safetensors"),
+    ("1MQCfsLxzdK_UZDnCEPksuhJOcq5QVSX0", "./models/checkpoints/SDXL_xxxRay_dmd2.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
