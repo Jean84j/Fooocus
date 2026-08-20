@@ -162,9 +162,9 @@ except ImportError:
 custom_models = [
         # Lora
 
-    ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
+    # ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
     
-    ("1GvWLLKh5n7riv6NKqm0Y6yhxSEd1JE9E", "./models/loras/XL_novuschroma13_style_2.safetensors"),
+    # ("1GvWLLKh5n7riv6NKqm0Y6yhxSEd1JE9E", "./models/loras/XL_novuschroma13_style_2.safetensors"),
 
      # ("1y9npO9sp_0lr4Atgm95_jz1swCvwljGe", "./models/loras/SDXL_Logo.safetensors"),
 
@@ -181,7 +181,7 @@ custom_models = [
 
      # ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
 
-      ("1pLlDKVXDCpC1HpaNYRQDNnqgenqrWUwO", "./models/checkpoints/SDXL_epicphotonicXL_r1.safetensors"),
+    ("1Yixg_qcM66wRr5VBn4oM0271W_yA7xXr", "./models/checkpoints/V4INT8NVFP4BF16_v4Nvfp4.safetensors"),
 ]
 
 for file_id, output_path in custom_models:
