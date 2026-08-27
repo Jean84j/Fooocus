@@ -164,14 +164,14 @@ custom_models = [
 
     ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
     
-    # ("1GvWLLKh5n7riv6NKqm0Y6yhxSEd1JE9E", "./models/loras/XL_novuschroma13_style_2.safetensors"),
+    ("1GvWLLKh5n7riv6NKqm0Y6yhxSEd1JE9E", "./models/loras/XL_novuschroma13_style_2.safetensors"),
 
      # ("1y9npO9sp_0lr4Atgm95_jz1swCvwljGe", "./models/loras/SDXL_Logo.safetensors"),
 
 
         # Model
    
-    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
+    ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
 
      # ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
 
@@ -181,7 +181,7 @@ custom_models = [
 
      # ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
 
-     ("1I13dKSYZOxA9z-99ivfRHvw5TrjC5K5I", "./models/checkpoints/SDXL_Checkpoint_zenithV9.safetensors"),
+     # ("1I13dKSYZOxA9z-99ivfRHvw5TrjC5K5I", "./models/checkpoints/SDXL_Checkpoint_zenithV9.safetensors"),
 
     
 ]
