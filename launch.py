@@ -88,7 +88,6 @@ from modules import config
 from modules.hash_cache import init_cache
 
 os.environ["U2NET_HOME"] = config.path_inpaint
-
 os.environ['GRADIO_TEMP_DIR'] = config.temp_path
 
 if config.temp_path_cleanup_on_launch:
@@ -100,6 +99,35 @@ if config.temp_path_cleanup_on_launch:
         print(f"[Cleanup] Failed to delete content of temp dir.")
 
 
+# ======= 1. ЗАГРУЗКА КАСТОМНЫХ МОДЕЛЕЙ (ПЕРЕНЕСЕНО НАВЕРХ) =======
+import subprocess
+
+try:
+    import gdown
+except ImportError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "gdown"])
+
+custom_models = [
+    # LoRA (раскомментируйте при необходимости)
+    # ("789Tbg7894tDL-uIm456PSL2n1232wIck", "./models/loras/XL_my.safetensors"),
+
+    # Модель (раскомментировано и указан путь)
+    ("1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c", "./models/checkpoints/SDXL_fabledIllusion_v8Periapsis.safetensors"),
+]
+
+for file_id, output_path in custom_models:
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    if not os.path.exists(output_path):
+        print(f"Загружаем {output_path} ...")
+        subprocess.run(["gdown", "--id", file_id, "-O", output_path])
+    else:
+        print(f"Файл уже существует: {output_path}")
+
+# Устанавливаем вашу модель как базовую по умолчанию
+config.default_base_model_name = "SDXL_fabledIllusion_v8Periapsis.safetensors"
+
+
+# ======= 2. СКАЧИВАНИЕ ВСПОМОГАТЕЛЬНЫХ ФАЙЛОВ =======
 def download_models(default_model, previous_default_models, checkpoint_downloads, embeddings_downloads, lora_downloads, vae_downloads):
     from modules.util import get_file_from_folder_list
 
@@ -112,21 +140,10 @@ def download_models(default_model, previous_default_models, checkpoint_downloads
         file_name='pytorch_model.bin'
     )
 
-    if args.disable_preset_download:
-        print('Skipped model download.')
-        return default_model, checkpoint_downloads
-
-    if not args.always_download_new_model:
-        if not os.path.isfile(get_file_from_folder_list(default_model, config.paths_checkpoints)):
-            for alternative_model_name in previous_default_models:
-                if os.path.isfile(get_file_from_folder_list(alternative_model_name, config.paths_checkpoints)):
-                    print(f'You do not have [{default_model}] but you have [{alternative_model_name}].')
-                    print(f'Fooocus will use [{alternative_model_name}] to avoid downloading new models, '
-                          f'but you are not using the latest models.')
-                    print('Use --always-download-new-model to avoid fallback and always get new models.')
-                    checkpoint_downloads = {}
-                    default_model = alternative_model_name
-                    break
+    # Пропускаем скачивание стандартного чекпоинта, если наша модель уже на месте
+    if args.disable_preset_download or os.path.exists("./models/checkpoints/SDXL_fabledIllusion_v8Periapsis.safetensors"):
+        print('Пропущено скачивание стандартных моделей, используется кастомная.')
+        return default_model, {}
 
     for file_name, url in checkpoint_downloads.items():
         model_dir = os.path.dirname(get_file_from_folder_list(file_name, config.paths_checkpoints))
@@ -148,50 +165,5 @@ config.default_base_model_name, config.checkpoint_downloads = download_models(
 
 config.update_files()
 init_cache(config.model_filenames, config.paths_checkpoints, config.lora_filenames, config.paths_loras)
-
-# ======= ДОПОЛНИТЕЛЬНАЯ ЗАГРУЗКА МОДЕЛЕЙ ЧЕРЕЗ GDOWN =======
-import subprocess
-
-# Устанавливаем gdown, если не установлен
-try:
-    import gdown
-except ImportError:
-    subprocess.run([sys.executable, "-m", "pip", "install", "-q", "gdown"])
-
-# Загрузка кастомных моделей
-custom_models = [
-        # Lora
-
-    # ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
-    
-    # ("1GvWLLKh5n7riv6NKqm0Y6yhxSEd1JE9E", "./models/loras/XL_novuschroma13_style_2.safetensors"),
-
-     # ("1y9npO9sp_0lr4Atgm95_jz1swCvwljGe", "./models/loras/SDXL_Logo.safetensors"),
-
-
-        # Model
-   
-    # ("1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi", "./models/checkpoints/IL_ilustmix_v111.safetensors"),
-
-     # ("13Su3AYBsYQP3OuOFMyYSo4QhVxz-qSN9", "./models/checkpoints/SDXL_epicrealismXL_vxviLastfameRealism.safetensors"),
-
-     # ("1qTWs9JidcetT9VkF2odkNbwhyAexoDXg", "./models/checkpoints/SDXL_worksRealPhoto_v04.safetensors"),
-
-     # ("1vVQVnGT89Du-n94Ce564FYUMIp356OuN", "./models/checkpoints/SDXL_worksRealPhoto_v03.safetensors"),
-
-     # ("1odUrbsLzEJ7a03JGG5S93p5O5wevXPhD", "./models/checkpoints/SDXL_worksBeauty_v04.safetensors"),
-
-
-      ("1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c", "./models/checkpoints/SDXL_fabledIllusion_v8Periapsis.safetensors"),
-    
-]
-
-for file_id, output_path in custom_models:
-    if not os.path.exists(output_path):
-        print(f"Загружаем {output_path} ...")
-        subprocess.run(["gdown", "--id", file_id, "-O", output_path])
-    else:
-        print(f"Файл уже существует: {output_path}")
-
 
 from webui import *
