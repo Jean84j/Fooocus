@@ -109,7 +109,7 @@ except ImportError:
 
 custom_models = [
     # LoRA (раскомментируйте при необходимости)
-    # ("789Tbg7894tDL-uIm456PSL2n1232wIck", "./models/loras/XL_my.safetensors"),
+    ("1LBUfuXUAnA3HINiwgQSolZwOISN6kJBk", "./models/loras/XL_Half-XL.safetensors"),
 
     # Модель (раскомментировано и указан путь)
     ("1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c", "./models/checkpoints/SDXL_fabledIllusion_v8Periapsis.safetensors"),
