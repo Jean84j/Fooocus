@@ -99,6 +99,12 @@ if config.temp_path_cleanup_on_launch:
         print(f"[Cleanup] Failed to delete content of temp dir.")
 
 
+CUSTOM_MODEL_NAME = "SDXL_fabledIllusion_v8Periapsis.safetensors"
+CUSTOM_MODEL_GDRIVE_ID = "1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c"
+
+
+# Путь к файлу
+CUSTOM_MODEL_PATH = os.path.join("./models/checkpoints", CUSTOM_MODEL_NAME)
 # ======= 1. ЗАГРУЗКА КАСТОМНЫХ МОДЕЛЕЙ (ПЕРЕНЕСЕНО НАВЕРХ) =======
 import subprocess
 
@@ -113,7 +119,7 @@ custom_models = [
     # ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
 
     # Модель (раскомментировано и указан путь)
-    ("1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c", "./models/checkpoints/SDXL_fabledIllusion_v8Periapsis.safetensors"),
+    (CUSTOM_MODEL_GDRIVE_ID, CUSTOM_MODEL_PATH),
 ]
 
 for file_id, output_path in custom_models:
@@ -125,8 +131,7 @@ for file_id, output_path in custom_models:
         print(f"Файл уже существует: {output_path}")
 
 # Устанавливаем вашу модель как базовую по умолчанию
-config.default_base_model_name = "SDXL_fabledIllusion_v8Periapsis.safetensors"
-
+config.default_base_model_name = CUSTOM_MODEL_NAME
 
 # ======= 2. СКАЧИВАНИЕ ВСПОМОГАТЕЛЬНЫХ ФАЙЛОВ =======
 def download_models(default_model, previous_default_models, checkpoint_downloads, embeddings_downloads, lora_downloads, vae_downloads):
@@ -142,7 +147,7 @@ def download_models(default_model, previous_default_models, checkpoint_downloads
     )
 
     # Пропускаем скачивание стандартного чекпоинта, если наша модель уже на месте
-    if args.disable_preset_download or os.path.exists("./models/checkpoints/SDXL_fabledIllusion_v8Periapsis.safetensors"):
+    if args.disable_preset_download or os.path.exists(CUSTOM_MODEL_PATH):
         print('Пропущено скачивание стандартных моделей, используется кастомная.')
         return default_model, {}
 
