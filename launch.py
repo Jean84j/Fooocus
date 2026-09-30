@@ -99,8 +99,12 @@ if config.temp_path_cleanup_on_launch:
         print(f"[Cleanup] Failed to delete content of temp dir.")
 
 
-CUSTOM_MODEL_NAME = "SDXL_fabledIllusion_v8Periapsis.safetensors"
-CUSTOM_MODEL_GDRIVE_ID = "1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c"
+# CUSTOM_MODEL_NAME = "SDXL_fabledIllusion_v8Periapsis.safetensors"
+# CUSTOM_MODEL_GDRIVE_ID = "1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c"
+
+
+CUSTOM_MODEL_NAME = "IL_ilustmix_v111.safetensors"
+CUSTOM_MODEL_GDRIVE_ID = "1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi"
 
 
 # Путь к файлу
