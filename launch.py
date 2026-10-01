@@ -99,12 +99,12 @@ if config.temp_path_cleanup_on_launch:
         print(f"[Cleanup] Failed to delete content of temp dir.")
 
 
-# CUSTOM_MODEL_NAME = "SDXL_fabledIllusion_v8Periapsis.safetensors"
-# CUSTOM_MODEL_GDRIVE_ID = "1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c"
+CUSTOM_MODEL_NAME = "SDXL_fabledIllusion_v8Periapsis.safetensors"
+CUSTOM_MODEL_GDRIVE_ID = "1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c"
 
 
-CUSTOM_MODEL_NAME = "krea2TurboOfficialComfy_krea2RawInt8Convrot.safetensors"
-CUSTOM_MODEL_GDRIVE_ID = "1LXbR4mAEVHpTTjyWBebezeUk9Jj8CChC"
+# CUSTOM_MODEL_NAME = ".safetensors"
+# CUSTOM_MODEL_GDRIVE_ID = ""
 
 
 
