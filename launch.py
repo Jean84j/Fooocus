@@ -103,8 +103,9 @@ if config.temp_path_cleanup_on_launch:
 # CUSTOM_MODEL_GDRIVE_ID = "1wKn4OlODAlCeH2pitTg-rver-ZPfOp7c"
 
 
-CUSTOM_MODEL_NAME = "IL_ilustmix_v111.safetensors"
-CUSTOM_MODEL_GDRIVE_ID = "1gh5x1P6FQtQDY_kIjYEKoiLa8MzPoeFi"
+CUSTOM_MODEL_NAME = "krea2TurboOfficialComfy_krea2RawInt8Convrot.safetensors"
+CUSTOM_MODEL_GDRIVE_ID = "1LXbR4mAEVHpTTjyWBebezeUk9Jj8CChC"
+
 
 
 # Путь к файлу
