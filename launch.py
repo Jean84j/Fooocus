@@ -123,8 +123,8 @@ except ImportError:
 
 custom_models = [
     # LoRA (раскомментируйте при необходимости)
-    ("1LBUfuXUAnA3HINiwgQSolZwOISN6kJBk", "./models/loras/XL_Half-XL.safetensors"),
-    # ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
+    # ("1LBUfuXUAnA3HINiwgQSolZwOISN6kJBk", "./models/loras/XL_Half-XL.safetensors"),
+    ("1tLTbgKa24tDL-uImIxnPSLEn5SW2wIck", "./models/loras/XL_HyperdetailedColoredPencilV2SDXL.safetensors"),
 
     # Модель (раскомментировано и указан путь)
     (CUSTOM_MODEL_GDRIVE_ID, CUSTOM_MODEL_PATH),
