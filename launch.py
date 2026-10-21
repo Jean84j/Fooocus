@@ -105,12 +105,8 @@ if config.temp_path_cleanup_on_launch:
 # CUSTOM_MODEL_NAME = "SDXL_worksRealPhoto_v04.safetensors"
 # CUSTOM_MODEL_GDRIVE_ID = "1qTWs9JidcetT9VkF2odkNbwhyAexoDXg"
 
-# CUSTOM_MODEL_NAME = "SDXL_tenstripXlpony_x7ftr.safetensors"
-# CUSTOM_MODEL_GDRIVE_ID = "1KYn0E9ep3dtIsyfREBHCZVqSsMA62XRm"
-
-CUSTOM_MODEL_NAME = "SDXL_lustify_zenithV9.safetensors"
-CUSTOM_MODEL_GDRIVE_ID = "1I13dKSYZOxA9z-99ivfRHvw5TrjC5K5I"
-
+CUSTOM_MODEL_NAME = "SDXL_tenstripXlpony_x7ftr.safetensors"
+CUSTOM_MODEL_GDRIVE_ID = "1KYn0E9ep3dtIsyfREBHCZVqSsMA62XRm"
 
 
 
