@@ -108,8 +108,8 @@ if config.temp_path_cleanup_on_launch:
 # CUSTOM_MODEL_NAME = "SDXL_tenstripXlpony_x7ftr.safetensors"
 # CUSTOM_MODEL_GDRIVE_ID = "1KYn0E9ep3dtIsyfREBHCZVqSsMA62XRm"
 
-CUSTOM_MODEL_NAME = "x7ftr.safetensors"
-CUSTOM_MODEL_GDRIVE_ID = "1KYn0E9epsyfREBHCZVqSsMA62XRm"
+CUSTOM_MODEL_NAME = "dreamshaperXL_lightningDPMSDE.safetensors"
+CUSTOM_MODEL_GDRIVE_ID = "1xivOom-L6pr_nigCo-nZz7xLFIKWXe1F"
 
 
 
